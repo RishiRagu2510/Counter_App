@@ -15,7 +15,7 @@ const ClickCounter = () => {
     <div className='box'>
     <p>{count}</p></div>
     
-    <button className="count" onClick={()=>setCount(0)}>
+    <button className="count" onClick={()=>setCount('enter a number')}>
     reset
     </button>
     </center>
