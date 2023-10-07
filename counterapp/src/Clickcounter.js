@@ -7,12 +7,11 @@ const ClickCounter = () => {
     <div>
     <center>
     <button className="count" onClick={()=>setCount(count+1)}>
-    count
+    Increment
     </button>
   <button className="count" onClick={()=>setCount(count-1)}>
     decrement
-    </button>
-    
+    </button> 
     <div className='box'>
     <p>{count}</p></div>
     
